@@ -1,0 +1,1338 @@
+@media screen {
+  margin-top: 0px !important;
+}
+@media (min-width: 300px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  /* ==========================================================================
+   Index page
+   ========================================================================== */
+elist a {
+    color: #000;
+  }
+  #mobilelist a:hover {
+    color: #f39f53;
+  }
+  .container {
+    padding: 0 18px;
+  }
+  .top-header {
+    height: 180px;
+  }
+  .top-header .navbars {
+    margin-top: 25px;
+    /*padding: 0 15px;*/
+  }
+  .top-header .navbars .logo img {
+    height: 85px;
+  }
+  .top-header .navbars .navbarright .contactinfo {
+    display: none;
+  }
+  .top-header .navbars .navbarright .tabs {
+    display: none;
+  }
+  .top-header .navbars .navbarright #mobileheader {
+    margin-top: 30px;
+  }
+  .top-header .navbars .navbarright #mobileheader #mobilenav {
+    cursor: pointer;
+    color: #E31E24;
+  }
+  .top-header .navbars .navbarright .nav-collapse span {
+    color: #292f83;
+    cursor: pointer;
+  }
+  .top-header .navbars .navbarright .nav-collapse ul {
+    font-weight: 700;
+    position: absolute;
+    right: 0;
+  }
+  .top-header .navbars .navbarright .nav-collapse ul li a {
+    color: #f3a054;
+  }
+  .top-header .navbars .navbarright .nav-collapse ul :hover {
+    opacity: 0.9;
+  }
+  .background {
+    height: 550px;
+    background-size: cover;
+  }
+  .background .background-content .topdoctors {
+    display: none;
+  }
+  .background .background-content .cancer {
+    margin-top: 225px;
+  }
+  .background .background-content .cancer h2 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .background .background-content .cancer p {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  @-moz-document url-prefix() {
+    
+  }
+  .background .background-content .cancer .learn {
+    margin: 0 auto;
+    display: table;
+  }
+  .background .background-content .buttons {
+    display: none;
+  }
+  .background .background-content .buttons .singlebutton {
+    font-size: 10px;
+  }
+  .background .background-content .buttons .singlebutton:hover:after {
+    left: 31% !important;
+  }
+  .background .background-content .buttons .row2 {
+    margin-top: 25px;
+  }
+  .aboutcontent .aboutinfo {
+    margin-top: 30px;
+  }
+  .aboutcontent .aboutinfo p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .aboutcontent .middlecolor {
+    background-image: none;
+  }
+  .aboutcontent .aboutinfo2 .nextgenseq {
+    margin-top: 15px;
+  }
+  .aboutcontent .aboutinfo2 .nextgenseq .infocontent {
+    background-color: #fff;
+    margin-top: 15px;
+  }
+  .aboutcontent .aboutinfo2 .nextgenseq .infocontent p {
+    background-color: #fff;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #585858;
+    font-weight: 400;
+  }
+  .aboutcontent .aboutinfo2 .machine {
+    display: none;
+  }
+  .bottom {
+    margin-top: 40px;
+    overflow: hidden;
+    background-size: cover;
+  }
+  .bottom .doctor {
+    display: none;
+  }
+  .bottom .calltoaction h1 {
+    font-size: 28px;
+  }
+  .bottom .calltoaction .order,
+  .bottom .calltoaction .visitor {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+  .bottom .footerbackground {
+    margin-top: 10px;
+  }
+  .otherbottom .footerbackground {
+    margin-top: 80px;
+  }
+  .footer .footertabs {
+    display: none;
+  }
+  .footer .social-copyright {
+    margin-bottom: 10px;
+    margin-top: 50px;
+    font-size: 12px;
+  }
+  .footer .social-copyright ul {
+    float: none;
+    text-align: center;
+  }
+  .footer .social-copyright ul li {
+    font-size: 12px;
+  }
+  .footer .social-copyright ul li .fa-twitter-square,
+  .footer .social-copyright ul li .fa-facebook-square {
+    font-size: 18px;
+  }
+  .footer .contactinfo {
+    display: none;
+    text-align: center;
+  }
+  .footer .contactinfo ul li {
+    font-size: 12px;
+    display: block;
+    text-align: center;
+    padding: 0;
+  }
+  .footer .devise p {
+    text-align: center;
+  }
+  @-moz-document url-prefix() {
+    .aboutcontent .middlecolor {
+      margin-top: 0;
+    }
+  }
+  /* ==========================================================================
+   Contact page
+   ========================================================================== */
+  .background-contact .title {
+    margin-top: 225px;
+  }
+  .faqs .contacts .contactformsection {
+    padding-right: 0px;
+    margin-bottom: 30px;
+  }
+  .faqs .contacts .contactformsection #contactform .contactform .forminput {
+    margin-bottom: 15px;
+  }
+  .faqs .contacts .contactformsection #contactform .contactform .forminput input {
+    padding: 15px 0 15px 3.5%;
+    width: 100%;
+  }
+  .faqs .contacts .contactformsection #contactform .contactform :last-child {
+    margin-bottom: 0;
+  }
+  .faqs .contacts .contactformsection .mycontactform .wpcf7-form-control-wrap input {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .faqs .contacts .contactformsection .mycontactform .wpcf7-form-control-wrap .textfieldmargin {
+    margin-right: 0;
+  }
+  .faqs .contacts .contactformsection .mycontactform .sendbutton {
+    width: 35%;
+  }
+  .faqs .contacts .contactinfosection {
+    padding-left: 0px;
+  }
+  .faqs .contacts ul li {
+    font-size: 12px;
+  }
+  /* ==========================================================================
+   Careers page
+   ========================================================================== */
+  .faqs .middlefaqs .careerdescription .jobpost a .apply {
+    width: 40%;
+    font-size: 11px;
+  }
+  /* ==========================================================================
+   FAQs page
+   ========================================================================== */
+  .background-faqs .title {
+    margin-top: 225px;
+  }
+  .background-faqs .title h1 {
+    font-size: 30px;
+  }
+  .background-faqs .title p {
+    font-size: 13px;
+  }
+  .faqs #mobilefaqsidebar ul,
+  .faqs #mobilefaqsidebar .panel-body {
+    width: 100%;
+    float: right;
+  }
+  .faqs .middlefaqs .panel.panel-default .panel-heading .panel-title {
+    font-size: 12px;
+  }
+  /* ==========================================================================
+   Order page
+   ========================================================================== */
+  .background-order .title {
+    margin-top: 225px;
+  }
+  .faqs .download-forms p strong {
+    font-size: 18px;
+  }
+  .faqs .samples h1 {
+    font-size: 18px;
+  }
+  .faqs .samples .panel-group {
+    display: block;
+  }
+  .faqs .samples .tableheading {
+    display: none;
+  }
+  .faqs .samples .tablesection {
+    display: none;
+  }
+  .faqs .samples .tableheading {
+    display: none;
+  }
+  .faqs .samples .tablesection {
+    display: none;
+  }
+  .faqs .samples .orderinfo h3 {
+    font-size: 18px;
+  }
+  .faqs .samples .orderinfo table tbody tr td {
+    font-size: 10px;
+  }
+  .faqs .samples .orderinfo ul li {
+    font-size: 12px;
+  }
+  .faqs .samples .shippingsection {
+    margin-bottom: 20px;
+  }
+  .faqs .samples .holidays {
+    padding-left: 0;
+  }
+  /* ==========================================================================
+   Genetic Tests Single page
+   ========================================================================== */
+  .background-single-section .title {
+    margin-top: 220px;
+  }
+  .background-single-section .title h1 p {
+    font-size: 32px;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 0px 1px #000;
+  }
+  /* ==========================================================================
+   About page
+   ========================================================================== */
+  .dna-bac height: 300px;
+  }
+  .allbackgrounds .title {
+    margin-top: 180px;
+  }
+  .allbackgrounds .title h1 {
+    font-size: 30px;
+  }
+  .allbackgrounds .title h1 p {
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 0px 1px #000;
+    width: 100%;
+  }
+}
+@media (min-width: 332px) {
+  .bottom .footerbackground {
+    margin-top: 40px;
+  }
+  .otherbottom .footerbackground {
+    margin-top: 80px;
+  }
+}
+@media (min-width: 368px) {
+  .otherbottom .footerbackground {
+    margin-top: 115px;
+  }
+}
+@media (min-width: 480px) {
+  /* smartphones, Android phones, landscape iPhone */
+  /* ==========================================================================
+   Index page
+   ========================================================================== */
+  .top-header .navbars {
+    margin-top: 10px;
+  }
+  .top-header .navbars .logo img {
+    height: auto;
+  }
+  .top-header .navbars .navbarright #mobileheader {
+    margin-top: 50px;
+  }
+  .background .background-content .buttons .singlebutton {
+    font-size: 12px;
+  }
+  .background .background-content .buttons .singlebutton:hover:after {
+    left: 31% !important;
+  }
+  .background .background-content .buttons .row2 {
+    margin-top: 30px;
+  }
+  .background .background-content .cancer {
+    margin-top: 260px;
+  }
+  .aboutcontent .aboutinfo {
+    margin-top: 25px;
+  }
+  .aboutcontent .aboutinfo p {
+    font-size: 14px;
+  }
+  .aboutcontent .aboutinfo2 .nextgenseq .infocontent p {
+    font-size: 18px;
+  }
+  .aboutcontent .aboutinfo2 .nextgenseq .infocontent a {
+    font-size: 18px;
+  }
+  .bottom .calltoaction h1 {
+    font-size: 34px;
+  }
+  .bottom .footerbackground {
+    margin-top: 20px;
+  }
+  .bottom .footerbackground {
+    margin-top: 100px;
+  }
+  .footer .social-copyright {
+    font-size: 13px;
+  }
+  .footer .social-copyright ul :last-child p {
+    margin-top: 3px;
+  }
+  .footer .contactinfo ul li {
+    font-size: 13px;
+  }
+  /* ==========================================================================
+   Contact page
+   ========================================================================== */
+  .faqs .contacts .contactformsection {
+    padding-right: 0px;
+    margin-bottom: 30px;
+  }
+  .faqs .contacts .contactformsection #contactform .contactform .forminput {
+    margin-bottom: 15px;
+  }
+  .faqs .contacts .contactformsection #contactform .contactform .forminput input {
+    padding: 15px 0 15px 3.5%;
+    width: 100%;
+  }
+  .faqs .contacts .contactformsection #contactform .contactform :last-child {
+    margin-bottom: 0;
+  }
+  .faqs .contacts .contactformsection .wpcf7-form-control-wrap input {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .faqs .contacts .contactformsection .wpcf7-form-control-wrap .textfieldmargin {
+    margin-right: 0;
+  }
+  .faqs .contacts .contactformsection .mycontactform .sendbutton {
+    width: 22%;
+  }
+  .faqs .contacts .contactinfosection {
+    padding-left: 0px;
+  }
+  .faqs .contacts ul li {
+    font-size: 14px;
+  }
+  /* ==========================================================================
+   Careers page
+   ========================================================================== */
+  .faqs .middlefaqs .careerdescription .jobpost a .apply {
+    width: 32%;
+    font-size: 14px;
+  }
+  /* ==========================================================================
+   FAQs page
+   ========================================================================== */
+  .faqs #mobilefaqsidebar ul,
+  .faqs #mobilefaqsidebar .panel-body {
+    width: 50%;
+  }
+  .faqs .middlefaqs .panel.panel-default .panel-heading .panel-title {
+    font-size: 14px;
+  }
+  /* ==========================================================================
+   Order page
+   ========================================================================== */
+  .faqs .download-forms p strong {
+    font-size: 22px;
+  }
+  .faqs .samples h1 {
+    font-size: 22px;
+  }
+  .faqs .samples .orderinfo h3 {
+    font-size: 22px;
+  }
+  .faqs .samples .orderinfo table tbody tr td {
+    font-size: 11px;
+  }
+  .faqs .samples .shippingsection {
+    margin-bottom: 25px;
+  }
+  /* ==========================================================================
+ About page
+ ========================================================================== */
+  
+  .faqs .scitech .apolloimg {
+    display: none;
+  }
+  /* ==========================================================================
+ General page
+ ========================================================================== */
+  .allbackgrounds {
+    height: 300px;
+  }
+}
+@media (min-width: 550px) {
+  .aboutcontent .aboutinfo p {
+    font-size: 17px;
+  }
+}
+@media (min-width: 595px) {
+  .bottom .footerbackground {
+    margin-top: 70px;
+  }
+  .bottom .footerbackground {
+    margin-top: 100px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  /* ==========================================================================
+   Index page
+   ========================================================================== */
+  .top-header .navbars .logo img {
+    height: auto;
+  }
+  /* ==========================================================================
+   Careers page
+   ========================================================================== */
+  .faqs .middlefaqs .careerdescription .jobpost a .apply {
+    width: 25%;
+  }
+  /* ==========================================================================
+   FAQs page
+   ========================================================================== */
+  .faqs #mobilefaqsidebar ul,
+  .faqs #mobilefaqsidebar .panel-body {
+    width: 35%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  /* ==========================================================================
+   Index page
+   ========================================================================== */
+  .container {
+    padding: 0 15px;
+  }
+  .top-header {
+    height: 165px;
+  }
+  .top-header .navbars {
+    padding: 0 0;
+    margin-top: 0;
+  }
+  .top-header .navbars .navbarright #mobileheader {
+    margin-top: 45px;
+  }
+  .background {
+    height: 718px;
+  }
+  .background .background-content .cancer {
+    margin-top: 280px;
+    min-height: 165px;
+  }
+  .background .background-content .buttons {
+    display: block;
+    margin-top: 130px;
+  }
+  .background .background-content .buttons .singlebutton:hover:after {
+    left: 37% !important;
+  }
+  .background .background-content .buttons .s5 {
+    display: none;
+  }
+  .background .background-content .buttons .row2 {
+    margin-top: 0;
+  }
+  .background .background-content .buttons .risk,
+  .background .background-content .buttons .view-all {
+    display: none;
+  }
+  .carousel-indicators .active {
+    width: 25%;
+  }
+  .aboutcontent .aboutinfo p {
+    font-size: 18px;
+  }
+  .aboutcontent .aboutinfo2 .nextgenseq .infocontent p {
+    font-size: 18px;
+  }
+  .aboutcontent .aboutinfo2 .nextgenseq .infocontent a {
+    font-size: 18px;
+  }
+  .bottom .doctor {
+    display: block;
+  }
+  .bottom .calltoaction {
+    text-align: left;
+  }
+  .bottom .calltoaction h1 {
+    font-size: 28px;
+  }
+  .bottom .calltoaction .order,
+  .bottom .calltoaction .visitor {
+    position: absolute;
+    margin-top: -30px;
+  }
+  .bottom .calltoaction .visitor {
+    margin-left: 150px;
+  }
+  .bottom .footerbackground {
+    margin-top: 130px;
+  }
+  .bottom .footerbackground {
+    margin-top: 160px;
+  }
+  .footer .social-copyright {
+    margin-top: 100px;
+    margin-bottom: 0px;
+  }
+  .footer .social-copyright ul :last-child p {
+    font-size: 13px;
+    margin-top: 4px;
+  }
+  .footer .contactinfo {
+    display: block;
+  }
+  .footer .contactinfo ul {
+    padding: 0;
+  }
+  .footer .contactinfo ul li {
+    display: inline;
+    padding-right: 15px;
+  }
+  @-moz-document url-prefix() {
+    .background .background-content .buttons {
+      margin-top: 121px;
+    }
+    .aboutcontent .middlecolor {
+      margin-top: 0;
+    }
+  }
+  /* ==========================================================================
+   Contact page
+   ========================================================================== */
+  .background-contact {
+    background-size: cover;
+    height: 250px;
+  }
+  .faqs .contacts .contactformsection {
+    padding-right: 15px;
+  }
+  .faqs .contacts .contactformsection #contactform .contactform .forminput {
+    margin-bottom: 15px;
+  }
+  .faqs .contacts .contactformsection #contactform .contactform .forminput input {
+    padding: 15px 0 15px 3.5%;
+    width: 100%;
+  }
+  .faqs .contacts .contactformsection #contactform .contactform :last-child {
+    margin-bottom: 0;
+  }
+  .faqs .contacts .contactformsection .mycontactform .sendbutton {
+    width: 24%;
+  }
+  .faqs .contacts .contactinfosection {
+    padding-left: 15px;
+  }
+  .otherbottom {
+    margin-top: 20px;
+  }
+  .otherfooter .footerbackground {
+    margin-top: 40px;
+  }
+  /* ==========================================================================
+   Careers page
+   ========================================================================== */
+  .faqs .middlefaqs .careerdescription .jobpost a .apply {
+    width: 23%;
+  }
+  /* ==========================================================================
+   Order page
+   ========================================================================== */
+  .faqs .samples .panel-group {
+    display: none;
+  }
+  .faqs .samples .tableheading {
+    display: block;
+  }
+  .faqs .samples .tableheading .type {
+    width: 15%;
+    padding-left: 15px;
+  }
+  .faqs .samples .tableheading .reqs {
+    width: 35%;
+  }
+  .faqs .samples .tableheading .shipping {
+    width: 50%;
+  }
+  .faqs .samples .tablesection {
+    display: block;
+  }
+  .faqs .samples .tablesection .title {
+    width: 15%;
+  }
+  .faqs .samples .tablesection .reqinfo {
+    width: 35%;
+  }
+  .faqs .samples .tablesection .shipinfo {
+    width: 50%;
+  }
+  .faqs .samples .tablesection .area p {
+    font-size: 12px;
+  }
+  .faqs .samples .tablesection .area h3 {
+    font-size: 12px;
+  }
+  .faqs .samples .tablesection .area ul li {
+    font-size: 12px;
+  }
+  .faqs .samples .wholeblood .area {
+    height: 165px;
+  }
+  .faqs .samples .wholeblood .title p {
+    padding-top: 70px;
+  }
+  .faqs .samples .saliva .area {
+    height: 165px;
+  }
+  .faqs .samples .saliva .title p {
+    padding-top: 70px;
+  }
+  .faqs .samples .dna .area {
+    height: 80px;
+  }
+  .faqs .samples .dna .title p {
+    padding-top: 30px;
+  }
+  .faqs .samples .orderinfo ul li {
+    font-size: 14px;
+  }
+  .faqs .samples .shippingsection {
+    margin-bottom: 25px;
+  }
+  .faqs .samples .holidays {
+    padding-left: 15px;
+  }
+  /* ==========================================================================
+   Genetic Tests Single page
+   ========================================================================== */
+  .background-single-section .title {
+    margin-top: 255px;
+  }
+  .background-single-section .title h1 p {
+    font-size: 36px;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 0px 1px #000;
+  }
+  .allbackgrounds {
+    height: 300px;
+  }
+  .faqs .aboutus .mission-more {
+    margin-bottom: 25px;
+  }
+  .faqs .aboutus .machine img {
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+  /* ==========================================================================
+   General page
+   ========================================================================== */
+  .allbackgrounds {
+    height: 375px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  /* ==========================================================================
+   Index page
+   ========================================================================== */
+  .top-header {
+    height: 170px;
+  }
+  .top-header .navbars {
+    margin-top: 30px;
+  }
+  .top-header .navbars .logo img {
+    height: 100px;
+  }
+  .top-header .navbars .navbarright .contactinfo {
+    display: block;
+    margin-bottom: 25px;
+  }
+  .top-header .navbars .navbarright .nav-collapse {
+    display: none;
+  }
+  .top-header .navbars .navbarright .tabs {
+    display: block;
+  }
+  .top-header .navbars .navbarright .tabs ul li {
+    padding: 0 8px;
+    font-size: 15px;
+  }
+  .background {
+    height: 777px;
+    background-position: center;
+  }
+  .background .background-content .cancer {
+    margin-top: 310px;
+    min-height: 180px;
+  }
+  .background .background-content .cancer h2 {
+    text-align: left;
+    height: 180px;
+  }
+  .background .background-content .cancer p {
+    text-align: left;
+    margin-bottom: 0;
+  }
+  .background .background-content .cancer .learn {
+    display: inline-block !important;
+  }
+  .background .background-content .topdoctors {
+    margin-top: 259px;
+    display: block;
+  }
+  .background .background-content .topdoctors.active {
+    display: inline;
+  }
+  .background .background-content .topdoctors.active img {
+    display: inline;
+  }
+  .background .background-content .buttons {
+    margin-top: 90px;
+  }
+  .background .background-content .buttons .singlebutton {
+    font-size: 14px;
+  }
+  .background .background-content .buttons .singlebutton:after {
+    left: 35% !important;
+  }
+  .background .background-content .buttons .singlebutton:hover:after {
+    left: 35% !important;
+  }
+  .background .background-content .buttons .singlebutton.active:after {
+    left: 35% !important;
+  }
+  .background .background-content .buttons .s5 {
+    display: block;
+  }
+  .background .background-content .buttons .risk,
+  .background .background-content .buttons .view-all {
+    display: block;
+  }
+  .carousel-indicators .active {
+    width: calc(25%);
+  }
+  .aboutcontent .aboutinfo p {
+    font-size: 14px;
+  }
+  .aboutcontent .middlecolor {
+    background-image: url('../images/middlecolor.png');
+  }
+  .aboutcontent .aboutinfo2 .nextgenseq {
+    margin-top: 110px;
+  }
+  .aboutcontent .aboutinfo2 .nextgenseq .infocontent {
+    margin-top: 17px;
+    background-color: #f5f5f4;
+  }
+  .aboutcontent .aboutinfo2 .nextgenseq .infocontent p {
+    background-color: #f5f5f4;
+    color: #b1b0b0;
+    margin-top: 4px;
+    margin-bottom: 2px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .aboutcontent .aboutinfo2 .nextgenseq .infocontent a {
+    font-size: 14px;
+  }
+  .aboutcontent .aboutinfo2 .machine {
+    display: block;
+    margin-top: 90px;
+  }
+  .aboutcontent .aboutinfo2 .machine img {
+    height: 170px;
+  }
+  .bottom {
+    height: 340px;
+    margin-top: 100px;
+    background-size: contain;
+  }
+  .bottom .doctor {
+    display: block;
+  }
+  .bottom .calltoaction {
+    text-align: left;
+  }
+  .bottom .calltoaction h1 {
+    font-size: 34px;
+  }
+  .bottom .calltoaction .order,
+  .bottom .calltoaction .visitor {
+    position: absolute;
+  }
+  .bottom .footerbackground {
+    margin-top: 60px;
+  }
+  .bottom .footerbackground {
+    margin-top: 90px;
+  }
+  .footer .footertabs {
+    display: block;
+  }
+  .footer .social-copyright {
+    text-align: left;
+    margin-top: 0px;
+  }
+  .footer .social-copyright ul {
+    text-align: left;
+  }
+  .footer .social-copyright ul :last-child p {
+    font-size: 12px;
+    margin-top: 2px;
+  }
+  .footer .contactinfo {
+    text-align: right;
+    font-size: 13px;
+  }
+  .footer .devise p {
+    text-align: left;
+  }
+  @-moz-document url-prefix() {
+    .aboutcontent .middlecolor {
+      margin-top: 115px;
+    }
+    .aboutcontent .aboutinfo2 .nextgenseq {
+      margin-top: -10px;
+    }
+    .aboutcontent .aboutinfo2 .machine {
+      margin-top: -25px;
+    }
+    .bottom .footerbackground {
+      margin-top: 70px;
+    }
+  }
+  /* ==========================================================================
+   Contact page
+   ========================================================================== */
+  .background-contact {
+    background-size: cover;
+    height: 250px;
+  }
+  .background-contact .title {
+    margin-top: 255px;
+  }
+  .faqs .contacts .contactformsection #contactform .contactform .forminput input {
+    padding: 15px 66% 15px 3.5%;
+  }
+  .faqs .contacts .contactformsection .mycontactform .sendbutton {
+    width: 15%;
+  }
+  .faqs .contacts ul li {
+    font-size: 13px;
+  }
+  .otherbottom {
+    margin-top: 20px;
+  }
+  .otherfooter .footerbackground {
+    margin-top: 40px;
+  }
+  /* ==========================================================================
+   Careers page
+   ========================================================================== */
+  /* ==========================================================================
+   Order page
+   ========================================================================== */
+  .background-order .title {
+    margin-top: 255px;
+  }
+  .faqs .download-forms p {
+    font-size: 14px;
+  }
+  .faqs .download-forms p strong {
+    font-size: 22px;
+  }
+  .faqs .samples h1 {
+    font-size: 22px;
+  }
+  .faqs .samples .tableheading .type {
+    padding-left: 28px;
+  }
+  .faqs .samples .tablesection .area p {
+    font-size: 14px;
+  }
+  .faqs .samples .tablesection .area h3 {
+    font-size: 13px;
+  }
+  .faqs .samples .tablesection .area ul li {
+    font-size: 13px;
+  }
+  .faqs .samples .orderinfo ul li {
+    font-size: 14px;
+  }
+  .faqs .samples .shippingsection {
+    margin-bottom: 0;
+  }
+  /* ==========================================================================
+   Genetic Tests Single page
+   ========================================================================== */
+  .background-single-section .title {
+    margin-top: 265px;
+  }
+  .background-single-section .title h1 p {
+    font-size: 39px;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 0px 1px #000;
+  }
+  /* ==========================================================================
+   About page
+   ========================================================================== */
+  
+  .faqs .aboutus .machine {
+    margin-top: 195px;
+  }
+  .faqs .aboutus .machine img {
+    width: 100%;
+  }
+  .faqs .scitech .apolloimg {
+    display: block;
+    margin-top: 100px;
+  }
+  .faqs .scitech ol {
+    margin-bottom: 40px;
+  }
+  /* ==========================================================================
+   General
+   ========================================================================== */
+  .allbackgrounds {
+    height: 375px;
+  }
+  .allbackgrounds .title {
+    margin-top: 280px;
+  }
+  .allbackgrounds .title h1 p {
+    font-size: 39px;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 0px 1px #000;
+  }
+}
+@media only screen and (min-width: 1140px) {
+  /* big landscape tablets, laptops, and desktops */
+  .bottom .footerbackground {
+    margin-top: 80px;
+  }
+  .bottom .footerbackground {
+    margin-top: 130px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  /* hi-res laptops and desktops */
+  /* ==========================================================================
+   Index page
+   ========================================================================== */
+  .background .background-content .cancer h2{
+  	font-size:39px;
+  }
+  .top-header {
+    height: 200px;
+  }
+  .top-header .navbars .logo img {
+    height: auto;
+  }
+  .top-header .navbars .navbarright .contactinfo {
+    margin-bottom: 25px;
+  }
+  .top-header .navbars .navbarright .tabs ul li {
+    padding: 0 10px;
+    font-size: 0px;
+  }
+  .background {
+    height: 728px;
+  }
+  .background .background-content .cancer {
+    margin-top: 290px;
+    min-height: 160px;
+  }
+  .background .background-content .cancer h2 {
+    height: 142px;
+  }
+  .background .background-content .cancer.active {
+    display: inline;
+  }
+  .background .background-content .topdoctors {
+    margin-top: 259px;
+  }
+  .background .background-content .topdoctors.active {
+    display: inline;
+  }
+  .background .background-content .buttons {
+    margin-top: 143px;
+  }
+  .background .background-content .buttons .singlebutton {
+    font-size: 15px;
+  }
+  .background .background-content .buttons .singlebutton:after {
+    left: 37% !important;
+  }
+  .background .background-content .buttons .singlebutton:hover:after {
+    left: 37% !important;
+  }
+  .background .background-content .buttons .singlebutton.active:after {
+    left: 37% !important;
+  }
+  .carousel-indicators .active {
+    width: calc(25%);
+  }
+  .aboutcontent .aboutinfo {
+    margin-top: 30px;
+  }
+  .aboutcontent .aboutinfo p {
+    font-size: 14px;
+  }
+  .aboutcontent .aboutinfo2 .nextgenseq {
+    margin-top: 105px;
+  }
+  .aboutcontent .aboutinfo2 .nextgenseq c h2 {
+    margin-top: 10px;
+  }
+  .aboutcontent .aboutinfo2 .nextgenseq .infocontent {
+    margin-top: 10px;
+  }
+  .aboutcontent .aboutinfo2 .nextgenseq .infocontent p {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    line-height: 23px;
+  }
+  .aboutcontent .aboutinfo2 .nextgenseq .infocontent a {
+    font-size: 13px;
+  }
+  .aboutcontent .aboutinfo2 .machine img {
+    height: auto;
+  }
+  .bottom .doctor {
+    margin-top: 10px;
+  }
+  .bottom .calltoaction {
+    margin-top: 10px;
+  }
+  .bottom .calltoaction h1 {
+    padding-left: 65px;
+  }
+  .bottom .calltoaction .order {
+    margin-left: 65px;
+  }
+  .bottom .calltoaction .visitor {
+    margin-left: 215px;
+  }
+  .bottom .footerbackground {
+    margin-top: 105px;
+  }
+  .bottom .footerbackground {
+    margin-top: 135px;
+  }
+  .footer .footertabs {
+    margin-top: 57px;
+    margin-bottom: 16px;
+  }
+  .footer .footertabs ul li {
+    padding: 0 10px;
+  }
+  .footer .contactinfo {
+    display: block;
+    margin-top: 6px;
+    margin-bottom: 10px;
+  }
+  .footer .contactinfo ul li {
+    font-size: 12px;
+  }
+  .footer .social-copyright ul li .fa-facebook-square {
+    font-size: 21px;
+  }
+  .footer .social-copyright ul li .fa-twitter-square {
+    font-size: 21px;
+  }
+  .otherfooter .footertabs {
+    margin-top: 40px;
+  }
+  @-moz-document url-prefix() {
+    .aboutcontent .middlecolor {
+      margin-top: 115px;
+    }
+    .aboutcontent .aboutinfo2 .nextgenseq {
+      margin-top: -10px;
+    }
+    .aboutcontent .aboutinfo2 .nextgenseq .infocontent {
+      margin-top: 26px;
+    }
+    .aboutcontent .aboutinfo2 .machine {
+      margin-top: -29px;
+    }
+    .bottom {
+      background-position: center top;
+    }
+  }
+  /* ==========================================================================
+   Contact page
+   ========================================================================== */
+  .background-contact {
+    background-size: cover;
+    height: 401px;
+  }
+  .faqs .contacts .contactformsection #contactform .contactform .forminput input {
+    padding: 15px 11.5%% 15px 11.5%;
+  }
+  .faqs .contacts .contactformsection .mycontactform .wpcf7-form-control-wrap input {
+    width: 30%;
+    margin-right: 5%;
+  }
+  .faqs .contacts .contactformsection .mycontactform .wpcf7-form-control-wrap .textfieldmargin {
+    margin-right: 0;
+  }
+  /* ==========================================================================
+   Careers page
+   ========================================================================== */
+  .faqs .middlefaqs .careerdescription .jobpost a .apply {
+    width: 16%;
+  }
+  .otherbottom {
+    margin-top: 40px;
+  }
+  /* ==========================================================================
+  Order page
+   ========================================================================== */
+  .faqs .samples .orderinfo ul li {
+    font-size: 15px;
+  }
+  .faqs .samples .wholeblood .area {
+    height: 125px;
+  }
+  .faqs .samples .wholeblood .title p {
+    padding-top: 55px;
+  }
+  .faqs .samples .saliva .area {
+    height: 125px;
+  }
+  .faqs .samples .saliva .title p {
+    padding-top: 55px;
+  }
+  /* ==========================================================================
+  About page
+ ========================================================================== */
+  
+  .faqs .aboutus .machine {
+    margin-top: 95px;
+  }
+  .faqs .scitech .apolloimg {
+    display: block;
+    margin-top: 110px;
+  }
+  /* ==========================================================================
+ General page
+ ========================================================================== */
+  .allbackgrounds {
+    height: 401px;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .top-header {
+    background-size: cover;
+    height: 250px;
+  }
+}
+/* ==========================================================================
+   Genetic Testing page
+   ========================================================================== */
+@media only screen and (min-width: 300px) {
+  .faqs .disorders img {
+    margin-top: 30px;
+  }
+  .faqs .disorders img:first-child {
+    margin-top: 45px;
+    height: 76px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .faqs .disorders .gene-test {
+    clear: none;
+  }
+  .faqs .disorders :nth-child(3n+1) {
+    clear: both;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .faqs .disorders .gene-test {
+    clear: none;
+  }
+  .faqs .disorders :nth-child(3n+1) {
+    clear: both;
+  }
+}
+/* ==========================================================================
+  FAQs page
+   ========  }
+  .faqs .aboutus .machine {
+    margin-top: 95px;
+  }
+  .faqs .scitech .apolloimg {
+    display: block;
+    margin-top: 110px;
+  }
+  /* ==========================================================================
+ General page
+ ========================================================================== */
+  .allbackgrounds {
+    height: 401px;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .top-header {
+    background-size: cover;
+    height: 250px;
+  }
+}
+/* ==========================================================================
+   Genetic Testing page
+   ========================================================================== */
+@media only screen and (min-width: 300px) {
+  .faqs .disorders img {
+    margin-top: 30px;
+  }
+  .faqs .disorders img:first-child {
+    margin-top: 45px;
+    height: 76px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .faqs .disorders .gene-test {
+    clear: none;
+  }
+  .faqs .disorders :nth-child(3n+1) {
+    clear: both;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .faqs .disorders .gene-test {
+    clear: none;
+  }
+  .faqs .disorders :nth-child(3n+1) {
+    clear: both;
+  }
+}
+/* ==========================================================================
+  FAQs page
+   ========================================================================== */
+@media only screen and (min-width: 992px) {
+  .background-faqs .title {
+    margin-top: 255px;
+  }
+  .background-faqs .title h1 {
+    font-size: 39px;
+  }
+  .background-faqs .title p {
+    font-size: 15px;
+  }
+}
+
+}

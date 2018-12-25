@@ -1,0 +1,2844 @@
+/* ; */
+
+#warrantyButton:hover {
+    background-color: #000;
+    color: #FFF;
+}
+
+a {
+    outline: 0 !important;
+}
+
+.bottomImageSpace {
+    padding-bottom: 60px;
+    padding-top: 25px;
+}
+
+.line {
+    display: inline-block;
+    width: 3.5rem;
+    height: 0.5rem;
+    background: #449a88;
+    border-radius: 0.25rem;
+    transition: 0.3s;
+}
+
+.clearPadMar {
+    padding: 0;
+    margin: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* ==========================================================================
+   Sticky footer
+   ========================================================================== */
+
+html {
+    margin-top: 0px !important;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Gotham SSm A', 'Gotham SSm B';
+    overflow: hidden;
+    overflow-y: visible;
+}
+
+body {
+    font: Gotham;
+    display: table;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.page-row {
+    display: table-row;
+    height: 73px;
+}
+
+.page-row-expanded {
+    height: 100%;
+}
+
+.page {
+    overflow: hidden;
+}
+
+.wrap {
+    position: relative;
+}
+
+#mobilelist a {
+    color: #E31E24;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#mobilelist a:hover {
+    color: #292f83 !important;
+}
+
+
+/* ==========================================================================
+   Top Header
+   ========================================================================== */
+
+.top-header {
+    background-image: url('../images/navbackground.png');
+    background-repeat: no-repeat;
+    height: 200px;
+    z-index: 1000;
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    overflow-x: visible;
+    z-index: 2000;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    right: 0;
+}
+
+.top-header .contactinfo {
+    color: #c0bfbf;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    text-align: right;
+}
+
+.top-header .contactinfo ul .fa {
+    color: #E31E24;
+    padding-right: 0px;
+}
+
+.top-header .contactinfo ul li {
+    display: inline;
+    list-style: none;
+    padding-right: 15px;
+}
+
+.top-header .contactinfo ul li a {
+    text-decoration: none;
+    color: #c0bfbf;
+}
+
+.top-header .contactinfo ul li a:hover {
+    cursor: pointer;
+}
+
+.top-header .contactinfo ul :last-child {
+    padding-right: 0px;
+}
+
+.top-header .contactinfo ul :hover {
+    color: #292f83;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.top-header .navbars {
+    margin-top: 40px;
+}
+
+.top-header .navbars .logo img {
+    cursor: pointer;
+}
+
+.top-header .navbars .navbarright .tabs {
+    text-align: right;
+}
+
+.top-header .navbars .navbarright .tabs ul li {
+    display: inline;
+    list-style: none;
+    font-size: 17px;
+    color: #292f83;
+    font-weight: 700;
+    padding: 0 9px;
+}
+
+.top-header .navbars .navbarright .tabs ul li a {
+    color: #292f83;
+    text-decoration: none;
+}
+
+.top-header .navbars .navbarright .tabs ul li a:hover {
+    color: #E31E24;
+}
+
+.top-header .navbars .navbarright .tabs ul li:first-child {
+    padding-left: 0;
+}
+
+.top-header .navbars .navbarright .tabs ul li:last-child {
+    padding-right: 0;
+}
+
+.top-header .navbars .navbarright .tabs ul li:hover {
+    color: #E31E24;
+}
+
+.top-header .navbars .navbarright .tabs ul .current_page_item a {
+    color: #E31E24;
+}
+
+
+/* ==========================================================================
+   Background
+   ========================================================================== */
+
+.background {
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 718px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.background .backgrounditem {
+    position: absolute;
+}
+
+.background .background-content {
+    color: #fff;
+}
+
+.background .background-content .cancer {
+    margin-top: 280px;
+    z-index: 1000;
+}
+
+.background .background-content .cancer h2 {
+    font-weight: bold;
+    font-size: 39px;
+    font-weight: 700;
+    margin-bottom: 3px;
+    margin-left: -2px;
+    text-shadow: 0px 1px #000;
+}
+
+.background .background-content .cancer p {
+    font-size: 15px;
+    font-weight: normal;
+    text-shadow: 0px 1px #000;
+    margin-bottom: 0;
+    line-height: 20px;
+    margin-top: 1px;
+    color: #fff;
+}
+
+.background .background-content .cancer p span {
+    color: #fff;
+}
+
+.background .background-content .cancer .learn {
+    background-color: #292f83;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 22px 10px 22px;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: normal;
+    cursor: pointer;
+    margin-top: 10px !important;
+}
+
+.background .background-content .cancer .learn a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.background .background-content .cancer .learn:hover {
+    opacity: 0.7;
+    color: #fff;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.background .background-content .cancer .learn:hover a {
+    color: #73b4ff;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.background .background-content .cancer.active {
+    display: block;
+}
+
+.background .background-content .topdoctors {
+    margin-top: 239px;
+}
+
+.background .background-content .topdoctors img {
+    position: absolute;
+}
+
+.background .background-content .topdoctors.active img {
+    display: inline;
+}
+
+.background .background-content .buttons {
+    margin-top: 116px;
+}
+
+.background .background-content .buttons a {
+    text-decoration: none;
+}
+
+.background .background-content .buttons .buttonbox.active .singleorange {
+    background-color: #E31E24;
+    color: #fff;
+}
+
+.background .background-content .buttons .buttonbox.active .singlebutton:after {
+    border-left: solid transparent 25px;
+    border-right: solid transparent 25px;
+    border-bottom: solid #E31E24 21px;
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: -20px;
+    left: 37%;
+    content: " ";
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+.background .background-content .buttons .singlebutton {
+    background-repeat: no-repeat;
+    color: #292f83;
+    background-color: #fff;
+    font-size: 16px;
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 42px;
+    background-position: center 30px;
+    font-weight: 500;
+}
+
+.background .background-content .buttons .singlebutton:hover {
+    background-color: #E31E24;
+    color: #fff;
+    font-weight: 700;
+    background-position: center 30px;
+    cursor: pointer;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.background .background-content .buttons .singlebutton:hover:after {
+    border-left: solid transparent 25px;
+    border-right: solid transparent 25px;
+    border-bottom: solid #E31E24 21px;
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: -20px;
+    left: 37%;
+    content: " ";
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+.background .background-content .buttons .singlebutton.active:after {
+    border-left: solid transparent 25px;
+    border-right: solid transparent 25px;
+    border-bottom: solid #E31E24 21px;
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: -20px;
+    left: 37%;
+    content: " ";
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+.background .background-content .buttons .singlebutton.active {
+    background-color: #E31E24;
+    color: #fff;
+    font-weight: 700;
+    background-position: center 30px;
+    width: 100%;
+}
+
+.background .background-content .buttons .singleorange:hover,
+.background .background-content .buttons .singleorange:hover_effect {
+    background-color: #E31E24;
+}
+
+.background .background-content .buttons .view-all:hover_effect {
+    opacity: 0.9;
+}
+
+.background .background-content .buttons .view-all {
+    background-color: #292f83;
+    color: #fff;
+    padding: 61px 0 58px 0;
+}
+
+.background .background-content .buttons .view-all a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.background .background-content .buttons .view-all:hover {
+    background-color: #0f59ae;
+}
+
+.background .background-content .buttons .view-all:hover a {
+    color: #73b4ff;
+    font-weight: 700;
+}
+
+.background .background-content .buttons .view-all:hover:after {
+    border: none;
+}
+
+.background .background-content .buttons .view-all.active {
+    background-color: #292f83;
+}
+
+
+/* ==========================================================================
+   aboutcontent-index page
+   ========================================================================== */
+
+.aboutcontent .aboutinfo {
+    margin-top: 70px;
+}
+
+.aboutcontent .aboutinfo h2 {
+    font-size: 31px;
+    color: #292f83;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.aboutcontent .aboutinfo p {
+    font-size: 15px;
+    color: #585858;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.aboutcontent .middlecolor {
+    width: 100%;
+    background-image: url('img/middlecolor.png');
+    background-repeat: repeat-x;
+    background-position-y: 120px;
+}
+
+.aboutcontent .aboutinfo2 .nextgenseq {
+    margin-top: 115px;
+}
+
+.aboutcontent .aboutinfo2 .nextgenseq h2 {
+    color: #292f83;
+    margin-top: 0;
+    font-weight: 700;
+}
+
+.aboutcontent .aboutinfo2 .nextgenseq .infocontent {
+    margin: 0;
+    padding: 0;
+    background-color: #b1b0b0;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.aboutcontent .aboutinfo2 .nextgenseq .infocontent p {
+    font-size: 13px;
+    background-color: #f5f5f4;
+    font-weight: 500;
+    margin-bottom: 0;
+    line-height: 25px;
+    padding-top: 10px;
+}
+
+.aboutcontent .aboutinfo2 .nextgenseq .infocontent a {
+    color: #868686;
+    font-size: 14px;
+    text-decoration: underline;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.aboutcontent .aboutinfo2 .nextgenseq .infocontent a:hover {
+    text-decoration: none;
+}
+
+.aboutcontent .aboutinfo2 .machine {
+    margin-top: 90px;
+}
+
+.aboutcontent .aboutinfo2 .machine img {
+    float: right;
+}
+
+
+/* ==========================================================================
+   Bottom-index page
+   ========================================================================== */
+
+.bottom {
+    margin-top: 100px;
+    background-image: url('../images/bottom-background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 0;
+    background-size: contain;
+    height: 315px;
+}
+
+.bottom .doctor {
+    position: absolute;
+    z-index: 1000;
+}
+
+.bottom .calltoaction h1 {
+    font-size: 34px;
+    color: #292f83;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.bottom .calltoaction h1 span {
+    color: #E31E24;
+}
+
+.bottom .calltoaction .order,
+.bottom .calltoaction .visitor {
+    color: #fff;
+    background-color: #292f83;
+    border-radius: 6px;
+    padding: 10px 22px 10px 22px;
+    display: inline;
+    font-weight: 500;
+    z-index: 2000;
+    position: absolute;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.bottom .calltoaction .order a,
+.bottom .calltoaction .visitor a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.bottom .calltoaction .order:hover {
+    opacity: .8;
+    color: #73b4ff;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.bottom .calltoaction .order:hover a {
+    color: #73b4ff;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.bottom .calltoaction .visitor:hover {
+    opacity: .8;
+    color: #73b4ff;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.bottom .calltoaction .visitor:hover a {
+    color: #73b4ff;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.bottom .footerbackground {
+    background-image: url('../images/footer.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    position: absolute;
+    height: 100px;
+    margin-top: 150px;
+}
+
+.otherbottom .doctor {
+    visibility: hidden;
+}
+
+.otherbottom .calltoaction {
+    visibility: hidden;
+}
+
+.footer .footertabs {
+    margin-top: 75px;
+    margin-bottom: 10px;
+}
+
+.footer .footertabs ul {
+    text-align: right;
+}
+
+.footer .footertabs ul li {
+    display: inline;
+    list-style: none;
+    font-size: 17px;
+    color: #292f83;
+    font-weight: 700;
+    padding: 0 6px;
+}
+
+.footer .footertabs ul li a {
+    color: #292f83;
+    text-decoration: none;
+}
+
+.footer .footertabs ul :first-child {
+    padding-left: 0;
+}
+
+.footer .footertabs ul :last-child {
+    padding-right: 0;
+}
+
+.footer .footertabs ul :hover {
+    color: #E31E24;
+}
+
+.footer .social-copyright {
+    color: #c8c8c8;
+    font-size: 17px;
+    float: left;
+    font-weight: 500;
+}
+
+.footer .social-copyright ul {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.footer .social-copyright ul li {
+    display: inline-block;
+    list-style: none;
+    font-size: 13px;
+}
+
+.footer .social-copyright ul li .fa-twitter-square,
+.footer .social-copyright ul li .fa-facebook-square {
+    font-size: 22px;
+}
+
+.footer .social-copyright ul li .fa-twitter-square:hover {
+    color: #292f83;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer .social-copyright ul li .fa-facebook-square:hover {
+    color: #292f83;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer .social-copyright ul li a {
+    color: #c8c8c8;
+}
+
+.footer .social-copyright ul li .apollo {
+    color: #292f83;
+    font-weight: 700;
+}
+
+.footer .social-copyright ul li .gen {
+    color: #E31E24;
+    font-weight: 700;
+}
+
+.footer .social-copyright ul :last-child p {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.footer .contactinfo {
+    color: #c0bfbf;
+    font-size: 17px;
+    text-align: right;
+    font-weight: 500;
+}
+
+.footer .contactinfo ul li {
+    display: inline;
+    list-style: none;
+    padding-right: 15px;
+    font-size: 12px;
+}
+
+.footer .contactinfo ul li a {
+    text-decoration: none;
+    color: #c0bfbf;
+}
+
+.footer .contactinfo ul li a:hover {
+    cursor: pointer;
+}
+
+.footer .contactinfo ul li .fa {
+    color: #E31E24;
+    padding-right: 5px;
+}
+
+.footer .contactinfo ul :last-child {
+    padding-right: 0;
+}
+
+.footer .contactinfo ul :hover {
+    color: #292f83;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer .devise p {
+    color: #a7a7a7;
+    text-align: right;
+    font-size: 12px;
+}
+
+.footer .devise p a {
+    text-decoration: none;
+    color: #a7a7a7;
+}
+
+.footer .devise p a:hover {
+    color: #292f83;
+}
+
+.otherfooter .footertabs {
+    margin-top: 40px;
+}
+
+
+/* ==========================================================================
+   Fadeing - index page
+   ========================================================================== */
+
+.top-header {
+    -ms-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+    -ms-animation-name: dropfadein;
+    -moz-animation-name: dropfadein;
+    -webkit-animation-name: dropfadein;
+}
+
+@-ms-keyframes dropfadein {
+    from {
+        opacity: 0;
+        margin-top: -15%;
+    }
+    to {
+        opacity: 1;
+        margin-top: 0%;
+    }
+}
+
+@-moz-keyframes dropfadein {
+    from {
+        opacity: 0;
+        margin-top: -15%;
+    }
+    to {
+        opacity: 1;
+        margin-top: 0%;
+    }
+}
+
+@-webkit-keyframes dropfadein {
+    from {
+        opacity: 0;
+        margin-top: -15%;
+    }
+    to {
+        opacity: 1;
+        margin-top: 0%;
+    }
+}
+
+@-ms-keyframes buttonfade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes buttonfade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes buttonfade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* ==========================================================================
+   Carousel - index page
+   ========================================================================== */
+
+#slide1_images {
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+#slide1_images img {
+    padding: 0;
+    margin: 0;
+    float: left;
+    /* All the images are in a row next to each other. */
+}
+
+
+/* ==========================================================================
+   Firefox - index page
+   ========================================================================== */
+
+@-moz-document url-prefix() {
+    .top-header .navbars .navbarright .nav-collapse ul {
+        font-weight: normal;
+    }
+    .aboutcontent .middlecolor {
+        margin-top: 105px;
+    }
+    .aboutcontent .aboutinfo2 .nextgenseq {
+        margin-top: -10px;
+    }
+    .aboutcontent .aboutinfo2 .machine {
+        margin-top: -27px;
+    }
+}
+
+
+/* ==========================================================================
+   Background - contact page
+   ========================================================================== */
+
+.background-contact {
+    background-image: url('img/background-contact.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    height: 401px;
+    background-position: center;
+}
+
+.background-contact .title {
+    margin-top: ;
+    overflow: hidden;
+}
+
+.background-contact .title h1 {
+    color: #fff;
+    font-size: 39px;
+    font-weight: bold;
+    text-shadow: 0px 1px #000;
+}
+
+.background-contact .title p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    text-shadow: 0px 1px #000;
+    width: 70%;
+}
+
+.faqs {
+    line-height: 23px;
+}
+
+.faqs .contacts h2 {
+    color: #292f83;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.faqs .contacts p {
+    color: #000;
+    font-size: 14px;
+}
+
+.faqs .contacts .contactformsection #contactform .contactform {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.faqs .contacts .contactformsection #contactform .contactform .forminput {
+    padding-left: 0;
+}
+
+.faqs .contacts .contactformsection #contactform .contactform .forminput input {
+    padding: 15px 0 15px 35%;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    color: #818181;
+    width: 100%;
+}
+
+.faqs .contacts .contactformsection #contactform .formtextarea {
+    padding-left: 0;
+}
+
+.faqs .contacts .contactformsection #contactform .formtextarea textarea {
+    padding: 15px 0 15px 4%;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    color: #818181;
+    width: 100%;
+    height: 140px;
+    margin-bottom: 10px;
+}
+
+.faqs .contacts .contactformsection #contactform .formtextarea input {
+    padding: 20px 25px 20px 25px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    color: #4b6dbe;
+    background-color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.faqs .contacts .contactformsection .mycontactform .wpcf7-form-control-wrap input {
+    padding: 15px 0 15px 3%;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    color: #818181;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    width: 30%;
+    margin-right: 5%;
+    -webkit-appearance: none;
+}
+
+.faqs .contacts .contactformsection .mycontactform .wpcf7-form-control-wrap .textfieldmargin {
+    margin-right: 0;
+}
+
+.faqs .contacts .contactformsection .mycontactform .wpcf7-form-control-wrap textarea {
+    padding: 15px 0 15px 3%;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    color: #818181;
+    width: 100%;
+    height: 140px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    -webkit-appearance: none;
+}
+
+.faqs .contacts .contactformsection .mycontactform .wpcf7-form-control-wrap .wpcf7-not-valid-tip {
+    display: none;
+}
+
+.faqs .contacts .contactformsection .mycontactform .sendbutton {
+    padding: 20px 25px 20px 25px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    color: #4b6dbe;
+    background-color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 12%;
+    margin-top: 20px;
+}
+
+.faqs .contacts .contactformsection .mycontactform .wpcf7-response-output {
+    margin: 0;
+    padding: 0;
+}
+
+.faqs .contacts .contactformsection .mycontactform .wpcf7-validation-errors {
+    border: none;
+    clear: both;
+    padding-top: 15px;
+    color: red;
+    margin-bottom: 40px;
+}
+
+.faqs .contacts .contactformsection .mycontactform .wpcf7-mail-sent-ok {
+    border: none;
+    clear: both;
+    padding-top: 15px;
+    color: green;
+    margin-bottom: 40px;
+}
+
+.faqs .contacts ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.faqs .contacts ul .fa {
+    padding-right: 10px;
+    color: #E31E24;
+    margin-bottom: 20px;
+}
+
+.faqs .contacts ul .fa:last-child {
+    margin-bottom: 0;
+}
+
+.faqs .contacts ul .fa:hover {
+    color: #292f83;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.faqs .contacts ul li {
+    display: inline;
+    color: #61758c;
+    font-size: 14px;
+}
+
+.faqs .contacts ul li a {
+    text-decoration: none;
+    color: #818181;
+}
+
+.faqs .contacts ul li a:hover {
+    cursor: pointer;
+    color: #292f83;
+}
+
+.faqs .contacts ul li:hover {
+    color: #292f83;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.faqs .map {
+    padding: 0;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.faqs .map iframe {
+    width: 100%;
+}
+
+
+/* ==========================================================================
+   Bottom - contact page
+   ========================================================================== */
+
+.otherbottom {
+    margin-top: 40px;
+}
+
+
+/* ==========================================================================
+   Background - FAQs page
+   ========================================================================== */
+
+.background-faqs {
+    background-image: url('img/background-faqs.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    height: 401px;
+    background-position: center;
+}
+
+.background-faqs .title {
+    margin-top: 275px;
+    overflow: hidden;
+}
+
+.background-faqs .title h1 {
+    color: #fff;
+    font-size: 39px;
+    font-weight: bold;
+    text-shadow: 0px 1px #000;
+}
+
+.background-faqs .title p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    text-shadow: 0px 1px #000;
+    width: 70%;
+}
+
+.faqs {
+    margin-top: -1px;
+}
+
+.faqs #mobilefaqsidebar {
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 0 15px;
+    color: #292f83;
+}
+
+.faqs #mobilefaqsidebar #mobilefaqnav {
+    display: block;
+    cursor: pointer;
+}
+
+.faqs #mobilefaqsidebar ul {
+    width: 50%;
+    float: right;
+    box-shadow: none;
+}
+
+.faqs #mobilefaqsidebar ul li {
+    border: none;
+    border-top: 1px solid #eeeeee;
+    cursor: pointer;
+}
+
+.faqs #mobilefaqsidebar ul li .fa {
+    display: none;
+    color: #6ed785;
+    margin-right: 5px;
+}
+
+.faqs #mobilefaqsidebar ul li a {
+    color: #888988;
+    text-decoration: none;
+}
+
+.faqs #mobilefaqsidebar ul li:last-child {
+    border-bottom: 1px solid #eeeeee;
+}
+
+.faqs #mobilefaqsidebar ul li:hover {
+    background-color: #fff9f4;
+    text-decoration: none;
+}
+
+.faqs #mobilefaqsidebar ul li.active {
+    background-color: #fff9f4;
+    background-image: none;
+    text-shadow: none;
+}
+
+.faqs #mobilefaqsidebar ul li.active .fa {
+    display: inline;
+}
+
+.faqs #mobilefaqsidebar ul li:first-child {
+    font-weight: bold;
+    color: #292f83;
+    text-decoration: underline;
+    font-size: 16px;
+    padding: 10px 15px;
+}
+
+.faqs #mobilefaqsidebar ul li:first-child:hover {
+    background-color: #fff;
+}
+
+.faqs .sidebar p,
+.faqs .sidebarcareers p {
+    color: #292f83;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.faqs .sidebar ul,
+.faqs .sidebarcareers ul {
+    list-style: none;
+    padding: 0;
+}
+
+.faqs .sidebar ul li,
+.faqs .sidebarcareers ul li {
+    margin-bottom: 10px;
+    border-top: 1px solid #eeeeee;
+    margin: 0;
+    padding: 12px 0;
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+.faqs .sidebar ul li .fa,
+.faqs .sidebarcareers ul li .fa {
+    display: none;
+}
+
+.faqs .sidebar ul li span,
+.faqs .sidebarcareers ul li span {
+    margin-left: 0px;
+    color: #888988;
+}
+
+.faqs .sidebar ul li:last-child,
+.faqs .sidebarcareers ul li:last-child {
+    margin-bottom: 0;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.faqs .sidebar ul li:hover,
+.faqs .sidebarcareers ul li:hover {
+    cursor: pointer;
+    background-color: #fff9f4;
+}
+
+.faqs .sidebar ul .sidebarcat.active,
+.faqs .sidebarcareers ul .sidebarcat.active {
+    background-color: #fff9f4;
+}
+
+.faqs .sidebar ul .sidebarcat.active .fa,
+.faqs .sidebarcareers ul .sidebarcat.active .fa {
+    display: inline-block;
+    margin-left: 10px;
+    color: #6ed785;
+}
+
+.faqs .sidebar ul .sidebarcat.active span,
+.faqs .sidebarcareers ul .sidebarcat.active span {
+    margin-left: 0px;
+}
+
+.faqs .coolslider .panel.panel-default {
+    background-image: none;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border: none;
+    margin-top: 2px;
+}
+
+.faqs .coolslider .panel.panel-default .panel-heading {
+    background-color: #292f83;
+    background-image: none;
+    background-repeat: no-repeat;
+}
+
+.faqs .coolslider .panel.panel-default .panel-heading h4 {
+    color: #fff;
+    padding: 5px 0;
+}
+
+.faqs .coolslider .panel.panel-default .panel-heading h4 a {
+    text-decoration: none;
+}
+
+.faqs .coolslider .panel.panel-default .panel-heading h4 a span:after {
+    position: absolute;
+    right: 32px;
+    margin-top: 5px;
+    content: '--';
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 6px;
+    letter-spacing: -5px;
+    color: #E31E24;
+}
+
+.faqs .coolslider .panel.panel-default .panel-heading.collapsed .panel-title a span:after {
+    position: absolute;
+    right: 33px;
+    margin-top: 3px;
+    content: '+';
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 12px;
+    color: #E31E24;
+}
+
+.faqs .coolslider .panel.panel-default .panel-heading.active {
+    opacity: 0;
+    background: transparent;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.faqs .coolslider .panel.panel-default .panel-body {
+    padding: 60px 20px 98px 20px;
+    border: 0;
+}
+
+.faqs .coolslider .panel.panel-default .panel-body p {
+    color: #0000FF;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.faqs .coolslider .panel.panel-default.active {
+    background-image: url('img/coolslider1.png');
+}
+
+.faqs .coolslider .panel.panel-default:hover {
+    cursor: pointer;
+}
+
+.faqs .coolslider .panel.panel-default:hover .panel-heading h4 {
+    color: #99c9ff;
+}
+
+.faqs .middlefaqs {
+    line-height: 23px;
+}
+
+.faqs .middlefaqs .panel-group {
+    margin-bottom: 25px;
+    display: none;
+}
+
+.faqs .middlefaqs .single-page-panel {
+    display: block;
+}
+
+.faqs .middlefaqs .panel-group.active {
+    display: block;
+}
+
+.faqs .middlefaqs .panel.panel-default {
+    margin-bottom: 10px;
+    border-color: #e6bf9b;
+}
+
+.faqs .middlefaqs .panel.panel-default .panel-heading {
+    background: #fbdfc6;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.faqs .middlefaqs .panel.panel-default .panel-heading .panel-title {
+    color: #E31E24;
+    font-size: 14px;
+    font-weight: bold;
+    width: 95%;
+}
+
+.faqs .middlefaqs .panel.panel-default .panel-heading .panel-title a span:before {
+    content: '';
+    width: 1px;
+    height: 55px;
+    margin-top: -20px;
+    background-color: #e6bf9b;
+    position: absolute;
+    right: 65px;
+}
+
+.faqs .middlefaqs .panel.panel-default .panel-heading .panel-title a span:after {
+    position: absolute;
+    right: 32px;
+    margin-top: 5px;
+    content: '--';
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 6px;
+    letter-spacing: -5px;
+    color: #E31E24;
+}
+
+.faqs .middlefaqs .panel.panel-default .panel-heading .panel-title a .icon:after {
+    position: absolute;
+    right: 32px;
+    margin-top: 5px;
+    content: '--';
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 6px;
+    letter-spacing: -5px;
+    color: #E31E24;
+}
+
+.faqs .middlefaqs .panel.panel-default .panel-heading .panel-title a p {
+    margin-bottom: 0;
+}
+
+.faqs .middlefaqs .panel.panel-default .panel-heading .panel-title a:hover {
+    text-decoration: none;
+}
+
+.faqs .middlefaqs .panel.panel-default .panel-heading .panel-title .fa {
+    padding-right: 10px;
+}
+
+.faqs .middlefaqs .panel.panel-default .panel-heading .panel-title .panel6 span:before,
+.faqs .middlefaqs .panel.panel-default .panel-heading .panel-title .panel7 span:before,
+.faqs .middlefaqs .panel.panel-default .panel-heading .panel-title .panel11 span:before,
+.faqs .middlefaqs .panel.panel-default .panel-heading .panel-title .panel16 span:before,
+.faqs .middlefaqs .panel.panel-default .panel-heading .panel-title .panel17 span:before,
+.faqs .middlefaqs .panel.panel-default .panel-heading .panel-title .panel30 span:before,
+.faqs .middlefaqs .panel.panel-default .panel-heading .panel-title .panel36 span:before,
+.faqs .middlefaqs .panel.panel-default .panel-heading .panel-title .panel37 span:before {
+    height: 71px;
+}
+
+.faqs .middlefaqs .panel.panel-default .panel-heading.collapsed .panel-title a span:after {
+    position: absolute;
+    right: 32px;
+    margin-top: 5px;
+    content: '+';
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 6px;
+    letter-spacing: -5px;
+    color: #E31E24;
+}
+
+.faqs .middlefaqs .panel.panel-default .panel-heading.collapsed .panel-title a .icon:after {
+    position: absolute;
+    right: 32px;
+    margin-top: 5px;
+    content: '+';
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 6px;
+    letter-spacing: -5px;
+    color: #E31E24;
+}
+
+.faqs .middlefaqs .panel.panel-default .panel-heading:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.faqs .middlefaqs .panel.panel-default .panel-collapse .panel-body {
+    padding: 15px 25px;
+    /*.title{
+                            color:#545454;font-size:17px;margin-bottom:5px;font-weight:bold;
+                            span{color:#E31E24;}
+                         }
+                         .description{color:#767676;font-size:14px;margin-bottom:0;font-weight:300;width:95%;}*/
+}
+
+.faqs .middlefaqs .panel.panel-default .panel-collapse .panel-body p {
+    color: #767676;
+    font-size: 14px;
+    margin-bottom: 0;
+    font-weight: 300;
+    width: 95%;
+}
+
+.faqs .middlefaqs .panel.panel-default .panel-collapse .panel-body p strong {
+    color: #545454;
+    font-size: 17px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.faqs .middlefaqs .panel.panel-default .panel-collapse .panel-body p strong em {
+    color: #E31E24;
+    font-style: normal;
+}
+
+
+/* ==========================================================================
+   Background - Single-Section page
+   ========================================================================== */
+
+.background-single-section {
+    background-image: url('img/background-single-section.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    height: 401px;
+}
+
+.background-single-section .title {
+    margin-top: 275px;
+    overflow: hidden;
+}
+
+.background-single-section .title h1 {
+    color: #fff;
+    font-size: 39px;
+    font-weight: bold;
+    text-shadow: 0px 1px #000;
+}
+
+.background-single-section .title p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    text-shadow: 0px 1px #000;
+    width: 70%;
+}
+
+.background-single-section-breast-cancer {
+    background-image: url('images/background-single-section1.jpg');
+}
+
+.faqs {
+    /* remove background arrow image for mobile */
+}
+
+.faqs .sidebar-single-section .normalsidebar .panel,
+.faqs #mobilefaqsidebar .normalsidebar .panel {
+    border-color: transparent;
+    margin: 0;
+    box-shadow: none;
+}
+
+.faqs .sidebar-single-section .normalsidebar .panel .panel-heading,
+.faqs #mobilefaqsidebar .normalsidebar .panel .panel-heading {
+    background-color: #fff;
+    padding: 5px 0 8px 0;
+    background-repeat: no-repeat;
+    background-position: left 8px;
+    padding-left: 10px;
+}
+
+.faqs .sidebar-single-section .normalsidebar .panel .panel-heading .panel-title .fa,
+.faqs #mobilefaqsidebar .normalsidebar .panel .panel-heading .panel-title .fa {
+    color: #E31E24;
+}
+
+.faqs .sidebar-single-section .normalsidebar .panel .panel-heading .panel-title a,
+.faqs #mobilefaqsidebar .normalsidebar .panel .panel-heading .panel-title a {
+    color: #292f83;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.faqs .sidebar-single-section .normalsidebar .panel .panel-heading .panel-title a:hover,
+.faqs #mobilefaqsidebar .normalsidebar .panel .panel-heading .panel-title a:hover {
+    color: #326fb5;
+}
+
+.faqs .sidebar-single-section .normalsidebar .panel .panel-collapse .panel-body,
+.faqs #mobilefaqsidebar .normalsidebar .panel .panel-collapse .panel-body {
+    border-top: none;
+    padding: 0;
+}
+
+.faqs .sidebar-single-section .normalsidebar .panel .panel-collapse .panel-body .submenu,
+.faqs #mobilefaqsidebar .normalsidebar .panel .panel-collapse .panel-body .submenu {
+    color: #888988;
+    font-size: 13px;
+    font-weight: normal;
+    text-decoration: none;
+    display: block;
+    border-top: 1px solid #eeeeee;
+    padding: 12px 0 12px 10px;
+}
+
+.faqs .sidebar-single-section .normalsidebar .panel .panel-collapse .panel-body .submenu .fa,
+.faqs #mobilefaqsidebar .normalsidebar .panel .panel-collapse .panel-body .submenu .fa {
+    display: none;
+    color: #6ed785;
+    margin: 0 5px 0 10px;
+    border-bottom: none;
+}
+
+.faqs .sidebar-single-section .normalsidebar .panel .panel-collapse .panel-body .submenu span,
+.faqs #mobilefaqsidebar .normalsidebar .panel .panel-collapse .panel-body .submenu span {
+    padding-left: 0;
+}
+
+.faqs .sidebar-single-section .normalsidebar .panel .panel-collapse .panel-body .submenu:last-child,
+.faqs #mobilefaqsidebar .normalsidebar .panel .panel-collapse .panel-body .submenu:last-child {
+    border-bottom: 1px solid #eeeeee;
+}
+
+.faqs .sidebar-single-section .normalsidebar .panel .panel-collapse .panel-body .submenu:hover,
+.faqs #mobilefaqsidebar .normalsidebar .panel .panel-collapse .panel-body .submenu:hover {
+    background-color: #fff9f4;
+}
+
+.faqs .sidebar-single-section .normalsidebar .panel .panel-collapse .panel-body .submenu.active .fa,
+.faqs #mobilefaqsidebar .normalsidebar .panel .panel-collapse .panel-body .submenu.active .fa {
+    display: inline;
+}
+
+.faqs .sidebar-single-section .normalsidebar .panel .panel-collapse .panel-body .submenu.active span,
+.faqs #mobilefaqsidebar .normalsidebar .panel .panel-collapse .panel-body .submenu.active span {
+    margin: 0;
+}
+
+.faqs .sidebar-single-section .normalsidebar .panel .panel-collapse .panel-body .igene1,
+.faqs #mobilefaqsidebar .normalsidebar .panel .panel-collapse .panel-body .igene1 {
+    font-weight: bold;
+}
+
+.faqs .sidebar-single-section .normalsidebar .panel .panel-collapse .panel-body .igene2,
+.faqs #mobilefaqsidebar .normalsidebar .panel .panel-collapse .panel-body .igene2 {
+    padding-left: 35px;
+}
+
+.faqs .sidebar-single-section .normalsidebar .panel .panel-collapse .panel-body .igene3,
+.faqs #mobilefaqsidebar .normalsidebar .panel .panel-collapse .panel-body .igene3 {
+    padding-left: 35px;
+}
+
+.faqs .sidebar-single-section .normalsidebar .panel .panel-collapse .panel-body .igene4,
+.faqs #mobilefaqsidebar .normalsidebar .panel .panel-collapse .panel-body .igene4 {
+    padding-left: 35px;
+}
+
+.faqs .sidebar-single-section .linkbutton,
+.faqs #mobilefaqsidebar .linkbutton {
+    width: 100%;
+    background-color: #292f83;
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 1px;
+    padding: 15px 25px;
+    opacity: .9;
+    -webkit-transition: padding 0.5s ease-out;
+    -moz-transition: padding 0.5s ease-out;
+    -o-transition: padding 0.5s ease-out;
+    font-weight: normal;
+}
+
+.faqs .sidebar-single-section .linkbutton a,
+.faqs #mobilefaqsidebar .linkbutton a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.faqs .sidebar-single-section .linkbutton:hover,
+.faqs #mobilefaqsidebar .linkbutton:hover {
+    cursor: pointer;
+    background: #093669;
+    padding-left: 35px;
+    -webkit-transition: padding 0.5s ease-out;
+    -moz-transition: padding 0.5s ease-out;
+    -o-transition: padding 0.5s ease-out;
+}
+
+.faqs .sidebar-single-section .linkbutton:hover a,
+.faqs #mobilefaqsidebar .linkbutton:hover a {
+    color: #FFF;
+}
+
+.faqs .sidebar-single-section .link1,
+.faqs #mobilefaqsidebar .link1 {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.faqs .sidebar-single-section .link2,
+.faqs #mobilefaqsidebar .link2 {
+    border-radius: none;
+}
+
+.faqs .sidebar-single-section .link3,
+.faqs #mobilefaqsidebar .link3 {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.faqs .middlefaqs .maintitle {
+    /*wordpress*/
+    /*wordpress end*/
+}
+
+.faqs .middlefaqs .maintitle .title {
+    font-size: 26px;
+    color: #292f83;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.faqs .middlefaqs .maintitle h3 {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 0;
+    line-height: 25px;
+    margin-top: 0;
+}
+
+.faqs .middlefaqs .maintitle ul {
+    margin-bottom: 25px;
+    padding: 0;
+    list-style: none;
+}
+
+.faqs .middlefaqs .maintitle ul li {
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.faqs .middlefaqs .maintitle ul li strong {
+    font-weight: bold;
+}
+
+.faqs .middlefaqs .maintitle ul li strong a {
+    text-decoration: none;
+}
+
+.faqs .middlefaqs .maintitle ul li strong a em {
+    color: #fff;
+    font-weight: normal;
+    font-style: normal;
+    background-color: #292f83;
+    border-radius: 8px;
+    padding: 5px 15px;
+    text-align: center;
+    width: 16%;
+    margin: 30px 0 10px 0;
+}
+
+.faqs .middlefaqs .maintitle ul li strong a em:hover {
+    color: #99c9ff;
+    opacity: .8;
+    text-decoration: none;
+}
+
+.faqs .middlefaqs .maintitle ul li a {
+    color: #E31E24;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.faqs .middlefaqs .maintitle .panel-body .description {
+    padding: 0;
+    font-weight: 300;
+    line-height: 25px;
+    color: #767676;
+}
+
+.faqs .middlefaqs .maintitle .panel-body ul {
+    margin-bottom: 0px;
+    padding-left: 15px;
+    list-style-type: disc;
+}
+
+.faqs .middlefaqs .maintitle .panel-body ul li {
+    font-weight: 300;
+    line-height: 25px;
+    color: #767676;
+}
+
+.faqs .middlefaqs .maintitle p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 23px;
+}
+
+.faqs .middlefaqs .maintitle p strong {
+    font-size: 22px;
+    color: #292f83;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.faqs .middlefaqs .maintitle h3 {
+    font-size: 21px;
+    color: #292f83;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.faqs .middlefaqs .maintitle ol {
+    padding-left: 15px;
+}
+
+.faqs .middlefaqs .maintitle ol li {
+    font-size: 12px;
+    font-weight: 300;
+    color: #717171;
+    line-height: 20px;
+}
+
+.faqs .middlefaqs .maintitle ol li a {
+    color: #717171;
+    text-decoration: underline;
+    font-size: 12px !important;
+    font-weight: 300;
+    font-family: 'Gotham SSm A', 'Gotham SSm B' !important;
+}
+
+.faqs #mobilefaqsidebar .normalsidebar .panel .panel-heading {
+    background-image: none;
+}
+
+.faqs #mobilefaqsidebar .normalsidebar .panel .panel-collapse .panel-body .submenu span {
+    padding-left: 0;
+}
+
+
+/* ==========================================================================
+   Background - Careers
+   ========================================================================== */
+
+.background-careers {
+    background-image: url('img/background-careers.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    height: 401px;
+}
+
+.background-careers .title {
+    margin-top: 275px;
+    overflow: hidden;
+}
+
+.background-careers .title h1 {
+    color: #fff;
+    font-size: 39px;
+    font-weight: bold;
+    text-shadow: 0px 1px #000;
+}
+
+.background-careers .title p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    text-shadow: 0px 1px #000;
+    width: 70%;
+}
+
+.faqs .sidebarcareers {
+    margin-bottom: 40px;
+}
+
+.faqs .sidebarcareers ul li span {
+    color: #61758c;
+}
+
+.faqs .middlefaqs .careerdescription {
+    /*wordpress*/
+    /*wordpress */
+}
+
+.faqs .middlefaqs .careerdescription .title {
+    font-size: 22px;
+    color: #292f83;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.faqs .middlefaqs .careerdescription .jobpost .title {
+    font-size: 22px;
+    color: #292f83;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.faqs .middlefaqs .careerdescription .jobpost .description p {
+    color: #61758c;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.faqs .middlefaqs .careerdescription .jobpost .description h3 {
+    font-size: 16px;
+    color: #292f83;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+.faqs .middlefaqs .careerdescription .jobpost .description ul {
+    padding-left: 15px;
+    margin-bottom: 25px;
+}
+
+.faqs .middlefaqs .careerdescription .jobpost .description ul li {
+    color: #E31E24;
+}
+
+.faqs .middlefaqs .careerdescription .jobpost .description ul li h6 {
+    font-size: 14px;
+    color: #000;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.faqs .middlefaqs .careerdescription .jobpost a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.faqs .middlefaqs .careerdescription .jobpost a .apply {
+    color: #fff;
+    font-weight: normal;
+    background-color: #292f83;
+    border-radius: 8px;
+    padding: 12px 20px;
+    text-align: center;
+    width: 16%;
+    margin: 30px 0 10px 0;
+}
+
+.faqs .middlefaqs .careerdescription .jobpost a .apply:hover {
+    opacity: 0.8;
+    color: #73b4ff;
+}
+
+.faqs .middlefaqs .careerdescription .jobpost a .apply:hover a {
+    text-decoration: none;
+    color: #73b4ff;
+}
+
+.faqs .middlefaqs .careerdescription .jobpost a:hover {
+    text-decoration: none;
+}
+
+.faqs .middlefaqs .careerdescription .jobpost .applyinfo {
+    font-size: 12px;
+    color: #656565;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.faqs .middlefaqs .careerdescription .careerabout p {
+    color: #000;
+}
+
+.faqs .middlefaqs .careerdescription .jobpost {
+    display: none;
+}
+
+.faqs .middlefaqs .careerdescription .jobpost.active {
+    display: block;
+}
+
+
+/* ==========================================================================
+   Background - Genetic Testing
+   ========================================================================== */
+
+.background-genetic-testing {
+    background-image: url('img/background-genetic-testing.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    height: 401px;
+}
+
+.background-genetic-testing .title {
+    margin-top: 275px;
+    overflow: hidden;
+}
+
+.background-genetic-testing .title h1 {
+    color: #fff;
+    font-size: 39px;
+    font-weight: bold;
+    text-shadow: 0px 1px #000;
+}
+
+.background-genetic-testing .title p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    text-shadow: 0px 1px #000;
+    width: 70%;
+}
+
+.faqs .genetic-testing p {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.faqs .genetic-testing p strong {
+    font-size: 22px;
+    font-weight: bold;
+    color: #292f83;
+    margin-bottom: 15px;
+}
+
+.faqs .disorders img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.faqs .disorders p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    color: #292f83;
+}
+
+.faqs .disorders ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.faqs .disorders ul a {
+    text-decoration: none;
+}
+
+.faqs .disorders ul li {
+    margin-bottom: 10px;
+    border-top: 1px solid #eeeeee;
+    margin: 0;
+    padding: 12px 0;
+    font-size: 12px;
+    text-align: center;
+    color: #61758c;
+    font-weight: normal;
+}
+
+.faqs .disorders ul li .fa {
+    display: inline;
+    margin-right: 5px;
+    color: #E31E24;
+}
+
+.faqs .disorders ul li:hover {
+    cursor: pointer;
+    background-color: #fff9f4;
+}
+
+.faqs .disorders ul .igene1 {
+    padding-left: 0;
+    font-weight: bold;
+}
+
+
+/* ==========================================================================
+   Background - Order a Test
+   ========================================================================== */
+
+.background-order {
+    background-image: url('img/background-order.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    height: 401px;
+}
+
+.background-order .title {
+    margin-top: 275px;
+    overflow: hidden;
+}
+
+.background-order .title h1 {
+    color: #fff;
+    font-size: 39px;
+    font-weight: bold;
+    text-shadow: 0px 1px #000;
+}
+
+.background-order .title p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    text-shadow: 0px 1px #000;
+    width: 70%;
+}
+
+.faqs .download-forms .content {
+    margin-bottom: 15px;
+}
+
+.faqs .download-forms .content p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #000;
+}
+
+.faqs .download-forms .content p strong {
+    font-size: 22px;
+    font-weight: bold;
+    color: #292f83;
+}
+
+.faqs .download-forms a {
+    text-decoration: none;
+}
+
+.faqs .download-forms .downloadbutton {
+    color: #fff;
+    background-color: #292f83;
+    border-radius: 6px;
+    padding: 10px 22px 10px 22px;
+    display: inline;
+    font-weight: 500;
+    z-index: 2000;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.faqs .download-forms .downloadbutton a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.faqs .download-forms .downloadbutton:hover {
+    opacity: 0.8;
+}
+
+.faqs .download-forms .downloadbutton:hover a {
+    color: #73b4ff;
+}
+
+.faqs .samples {
+    margin-top: 40px;
+}
+
+.faqs .samples h1 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #292f83;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.faqs .samples .tableheading {
+    font-size: 11px;
+    font-weight: normal;
+    color: #6e7c8c;
+    margin: 0;
+}
+
+.faqs .samples .tableheading p {
+    margin-bottom: 5px;
+}
+
+.faqs .samples .tableheading .type {
+    width: 12%;
+    float: left;
+    padding-left: 25px;
+}
+
+.faqs .samples .tableheading .reqs {
+    width: 28%;
+    float: left;
+    padding-left: 40px;
+}
+
+.faqs .samples .tableheading .shipping {
+    width: 60%;
+    float: left;
+    padding-left: 10px;
+}
+
+.faqs .samples .tablesection {
+    margin-bottom: 5px;
+}
+
+.faqs .samples .tablesection .title {
+    width: 12%;
+    float: left;
+    background-color: #fad6b6;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    margin-top: 5px;
+    border-left: 8px solid #E31E24;
+}
+
+.faqs .samples .tablesection .title p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #6687ad;
+    text-align: center;
+}
+
+.faqs .samples .tablesection .reqinfo {
+    width: 28%;
+    float: left;
+    background-color: #fbdfc6;
+    height: 105px;
+    padding-left: 40px;
+    padding-top: 20px;
+    margin-top: 5px;
+}
+
+.faqs .samples .tablesection .reqinfo h3 {
+    font-weight: normal;
+    font-size: 13px;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+
+.faqs .samples .tablesection .reqinfo ul {
+    padding-left: 0;
+    list-style-position: inside;
+    padding-right: 20px;
+}
+
+.faqs .samples .tablesection .reqinfo ul li {
+    font-size: 13px;
+    color: #000;
+    font-weight: 300;
+}
+
+.faqs .samples .tablesection .reqinfo p {
+    font-size: 13px;
+    color: #000;
+    font-weight: 300;
+    padding-right: 10px;
+}
+
+.faqs .samples .tablesection .reqinfo p a {
+    color: #292f83;
+}
+
+.faqs .samples .tablesection .shipinfo {
+    background-color: #fbdfc6;
+    width: 60%;
+    float: left;
+    height: 105px;
+    padding-left: 10px;
+    padding-top: 17px;
+    margin-top: 5px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.faqs .samples .tablesection .shipinfo p {
+    font-size: 14px;
+    color: #000;
+    vertical-align: middle;
+    font-weight: 300;
+    padding-right: 15px;
+}
+
+.faqs .samples .wholeblood .area {
+    height: 105px;
+}
+
+.faqs .samples .wholeblood .title p {
+    padding-top: 43px;
+}
+
+.faqs .samples .saliva .area {
+    height: 87px;
+}
+
+.faqs .samples .saliva .title p {
+    padding-top: 35px;
+}
+
+.faqs .samples .dna .area {
+    height: 51px;
+}
+
+.faqs .samples .dna .title p {
+    padding-top: 16px;
+}
+
+.faqs .samples .panel.panel-default {
+    margin-bottom: 10px;
+    border-color: #e6bf9b;
+}
+
+.faqs .samples .panel.panel-default .panel-heading {
+    background: #fbdfc6;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.faqs .samples .panel.panel-default .panel-heading .panel-title {
+    color: #E31E24;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.faqs .samples .panel.panel-default .panel-heading .panel-title a span:before {
+    content: '';
+    width: 1px;
+    height: 55px;
+    margin-top: -20px;
+    background-color: #e6bf9b;
+    position: absolute;
+    right: 65px;
+}
+
+.faqs .samples .panel.panel-default .panel-heading .panel-title a span:after {
+    position: absolute;
+    right: 32px;
+    margin-top: 5px;
+    content: '--';
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 6px;
+    letter-spacing: -5px;
+    color: #E31E24;
+}
+
+.faqs .samples .panel.panel-default .panel-heading.collapsed .panel-title a span:after {
+    position: absolute;
+    right: 33px;
+    margin-top: 3px;
+    content: '+';
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 12px;
+    color: #E31E24;
+}
+
+.faqs .samples .panel.panel-default .panel-heading:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.faqs .samples .panel.panel-default .panel-collapse .panel-body {
+    padding: 10px 25px 20px 25px;
+}
+
+.faqs .samples .panel.panel-default .panel-collapse .panel-body p {
+    color: #767676;
+    font-size: 14px;
+    margin-bottom: 0;
+    font-weight: 300;
+    width: 95%;
+    padding-left: 15px;
+}
+
+.faqs .samples .panel.panel-default .panel-collapse .panel-body p strong {
+    color: #545454;
+    font-size: 17px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.faqs .samples .panel.panel-default .panel-collapse .panel-body p strong em {
+    color: #E31E24;
+    font-style: normal;
+}
+
+.faqs .samples .panel.panel-default .panel-collapse .panel-body h3 {
+    font-weight: medium;
+    font-size: 13px;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    padding-left: 15px;
+}
+
+.faqs .samples .panel.panel-default .panel-collapse .panel-body ul {
+    padding-left: 15px;
+    list-style-position: inside;
+    padding-right: 20px;
+}
+
+.faqs .samples .panel.panel-default .panel-collapse .panel-body ul li {
+    font-size: 13px;
+    color: #000;
+    font-weight: 300;
+}
+
+.faqs .samples .panel.panel-default .panel-collapse .panel-body .reqs,
+.faqs .samples .panel.panel-default .panel-collapse .panel-body .shipping {
+    color: #545454;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.faqs .samples .orderinfo h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #292f83;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+.faqs .samples .orderinfo p {
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 5px;
+    font-weight: 300;
+}
+
+.faqs .samples .orderinfo p strong {
+    font-weight: normal;
+}
+
+.faqs .samples .orderinfo ul {
+    padding: 0;
+    list-style: none;
+}
+
+.faqs .samples .orderinfo ul li {
+    font-size: 15px;
+    color: #292f83;
+    font-weight: 300;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.faqs .samples .orderinfo ul li strong {
+    font-weight: bold;
+}
+
+.faqs .samples .orderinfo table tbody tr td {
+    color: #61758c;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 10px 20px 0 0;
+}
+
+.faqs .samples .shippingsection {
+    float: left;
+    padding-left: 0;
+}
+
+.faqs .samples .shippingsection p strong {
+    font-weight: bold;
+}
+
+.faqs .samples .holidays {
+    float: left;
+    padding-right: 0;
+}
+
+
+/* ==========================================================================
+   Background - About
+   ========================================================================== */
+
+.background-about {
+    background-image: url('../images/about-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    height: 401px;
+}
+
+.background-matrial {
+    background-image: url('../images/matrial-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    height: 401px;
+}
+
+.background-matrial .title {
+    margin-top: 275px;
+    overflow: hidden;
+}
+
+.background-matrial .title h1 {
+    color: #fff;
+    font-size: 39px;
+    font-weight: bold;
+    text-shadow: 0px 1px #000;
+}
+
+.background-matrial .title p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    text-shadow: 0px 1px #000;
+    width: 70%;
+}
+
+.background-pre {
+    background-image: url('../images/pri-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    height: 401px;
+}
+
+.background-pre .title {
+    margin-top: 275px;
+    overflow: hidden;
+}
+
+.background-pre .title h1 {
+    color: #fff;
+    font-size: 39px;
+    font-weight: bold;
+    text-shadow: 0px 1px #000;
+}
+
+.background-pre .title p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    text-shadow: 0px 1px #000;
+    width: 70%;
+}
+
+.background-bag {
+    background-image: url('../images/bag-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    height: 401px;
+}
+
+.background-bag .title {
+    margin-top: 275px;
+    overflow: hidden;
+}
+
+.background-bag .title h1 {
+    color: #fff;
+    font-size: 39px;
+    font-weight: bold;
+    text-shadow: 0px 1px #000;
+}
+
+.background-bag .title p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    text-shadow: 0px 1px #000;
+    width: 70%;
+}
+
+.background-contct {
+    background-image: url('../images/contact-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    height: 401px;
+}
+
+.background-contct .title {
+    margin-top: 275px;
+    overflow: hidden;
+}
+
+.background-contct .title h1 {
+    color: #fff;
+    font-size: 39px;
+    font-weight: bold;
+    text-shadow: 0px 1px #000;
+}
+
+.background-contct .title p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    text-shadow: 0px 1px #000;
+    width: 70%;
+}
+
+.background-wed {
+    background-image: url('../images/adorn-weighing-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    height: 401px;
+}
+
+.background-wed .title {
+    margin-top: 275px;
+    overflow: hidden;
+}
+
+.background-wed .title h1 {
+    color: #fff;
+    font-size: 39px;
+    font-weight: bold;
+    text-shadow: 0px 1px #000;
+}
+
+.background-wed .title p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    text-shadow: 0px 1px #000;
+    width: 70%;
+}
+
+.background-about .title {
+    margin-top: 275px;
+    overflow: hidden;
+}
+
+.background-about .title h1 {
+    color: #fff;
+    font-size: 39px;
+    font-weight: bold;
+    text-shadow: 0px 1px #000;
+}
+
+.background-about .title p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    text-shadow: 0px 1px #000;
+    width: 70%;
+}
+
+.faqs .aboutus .mission h1 {
+    font-size: 22px;
+    color: #292f83;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.faqs .aboutus .mission p {
+    font-size: 14px;
+    color: #000;
+    font-weight: 300;
+    margin-bottom: 25px;
+    line-height: 23px;
+}
+
+.faqs .aboutus .mission p strong {
+    font-weight: bold;
+    color: #292f83;
+}
+
+.faqs .aboutus .mission p strong span {
+    color: #292f83 !important;
+}
+
+.faqs .aboutus .mission-more {
+    padding-left: 0;
+}
+
+.faqs .aboutus .mission-more p {
+    font-size: 14px;
+    color: #000;
+    font-weight: 300;
+    margin-bottom: 25px;
+    line-height: 23px;
+}
+
+.faqs .aboutus .mission-more p a {
+    color: #E31E24;
+    text-decoration: underline;
+}
+
+.faqs .aboutus .mission-more p a:hover {
+    text-decoration: none;
+}
+
+.faqs .aboutus .machine {
+    margin-top: 45px;
+}
+
+.faqs .aboutus .machine img {
+    width: 100%;
+}
+
+.faqs .scitech .tophalf {
+    padding-left: 0;
+    margin-top: 15px;
+}
+
+.faqs .scitech .apolloimg {
+    margin-top: 15px;
+}
+
+.faqs .scitech .apolloimg img {
+    width: 100%;
+}
+
+.faqs .scitech h1 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #292f83;
+    margin-top: 0;
+}
+
+.faqs .scitech h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #E31E24;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.faqs .scitech p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #000;
+}
+
+.faqs .scitech p strong {
+    font-weight: bold;
+    color: #292f83;
+}
+
+.faqs .scitech ol {
+    padding-left: 25px;
+    margin-bottom: 40px;
+}
+
+.faqs .scitech ol li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #E31E24;
+}
+
+.faqs .scitech ol li em {
+    color: #000;
+    font-style: normal;
+}
+
+.dna-background {
+    background-image: url('../images/dna-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.dna-background .dna-content {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.dna-background .dna-content h1 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #292f83;
+    margin-bottom: 15px;
+}
+
+.dna-background .dna-content h3 {
+    font-size: 14px;
+    color: #000;
+    font-weight: normal;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.dna-background .dna-content p {
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 25px;
+    line-height: 23px;
+    font-weight: 300;
+}
+
+.dna-background .dna-content ul {
+    padding-left: 0px;
+}
+
+.dna-background .dna-content ul li {
+    font-size: 12px;
+    color: #000000;
+    font-weight: normal;
+    font-weight: 300;
+    line-height: 23px;
+    text-align: left;
+}
+
+.dna-background .dna-content ul li a {
+    text-decoration: underline;
+    color: #292f83;
+}
+
+.dna-background .dna-content ul li a:hover {
+    text-decoration: none;
+}
+
+
+/*Carousel*/
+
+.carousel-indicators {
+    bottom: auto;
+    margin-left: auto;
+    left: auto;
+    width: 100%;
+}
+
+.carousel-inner {
+    overflow: visible;
+}
+
+.carousel-indicators .active {
+    width: calc(16.66666667%);
+    height: auto;
+    background: transparent;
+}
+
+.carousel-caption {
+    right: auto;
+    left: auto;
+    bottom: auto;
+    padding-top: 0;
+}
+
+.lb-data .lb-close {
+    background: url('../images/close.png') no-repeat scroll right top rgba(0, 0, 0, 0);
+    display: block;
+    float: right;
+    height: 30px;
+    opacity: 0.7;
+    outline: medium none;
+    text-align: right;
+    transition: opacity 0.2s ease 0s;
+    width: 30px;
+}

@@ -1,0 +1,194 @@
+﻿
+/*****************************************paddings*******************************************************/
+.pT10{padding-top:10px !important;}
+.pT20{padding-top:20px !important;}
+.pT30{padding-top:30px !important;}
+.pT40{padding-top:40px !important;}
+
+.pB10{padding-bottom:10px !important;}
+.pB20{padding-bottom:20px !important;}
+.pB30{padding-bottom:30px !important;}
+.pB50{padding-bottom:50px !important;}
+.borR{border-right:1px solid #cccccc;}
+
+.mT10{margin-top:10px !important;}
+.mT20{margin-top:20px !important;}
+.mT30{margin-top:30px !important;}
+.mT40{margin-top:40px !important;}
+
+.mB10{margin-bottom:10px !important;}
+.mB20{margin-bottom:20px !important;}
+.mB30{margin-bottom:30px !important;}
+.mB50{margin-bottom:50px !important;}
+
+/*****************************************paddings ends*******************************************************/
+.slow{-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;-ms-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;}
+.features_list{margin-left:-20px;margin-top: -20px;list-style-image:url(../images/dotted.png)}
+.features_list_subpro{color:#000000 !important;margin-top: 5px ;margin-left:-20px;list-style-image:url(../images/dotted.png)}
+.feature_head{font-size:14px; font-weight:600;color:#292f83;}
+.img_res{width:100%;}
+.product_head{font-size:22px;font-weight:400;color:#292f83;}
+.bottom_pro_but{color:#E80009;font-size:13px; padding:15px 0px;border:1px solid #E80009; width:30%;text-align:center;float:left;margin-left:20px;}
+.bottom_pro_but:hover{color:#ffffff;background-color:#E80009;}
+.project_head_tab{padding:20px !important;cursor:pointer;text-align:center;border-left:1px solid #cccccc;border-bottom:1px solid #cccccc; font-size:14px; font-weight:700;color:#333333;}
+.project_head_tab-active{color:#292f83;background-image:url(../images/product_pattern.png);border-bottom:none;}
+.project_content{background-image:url(../images/product_pattern.png)}
+.wei_scale_inside_tab{width:100%;background-color:#efefef;padding:30px;}
+.wei_scale_inside_head{font-weight: 500;font-size: 14px;padding:0px 0 10px 20px;}
+
+
+
+.div_border_container {
+    display: table;
+    border-collapse: collapse;
+}
+.div_border_column {
+    display:table-row;
+}
+.div_border_cell 
+{
+    font-size:12px;
+    display: table-cell;
+    border: 1px solid #cccccc;
+    padding:5px 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/*****************************************slide tabs*******************************************************/
+ul.resp-tabs-list, p {margin: 0px;padding: 0px;}
+
+.resp-tabs-list li {font-weight: 600;font-size: 13px;display: inline-block;padding: 13px 15px;margin: 0;list-style: none;cursor: pointer;float: left;border:1px solid #cccccc;border-bottom:none;background-color: rgba(255, 255, 255, 0.8);}
+
+.resp-tabs-container {
+    padding: 0px;
+    background-color: rgba(255, 255, 255, 0.8);
+    clear: left;
+}
+
+h2.resp-accordion {
+    cursor: pointer;
+    padding: 5px;
+    display: none;
+}
+
+.resp-tab-content {
+    display: none;
+    padding: 20px;
+    
+}
+
+.resp-tab-active {
+    border-bottom: none;
+    background-color: #333333 !important;
+    color:#ffffff !important;
+}
+
+.resp-content-active, .resp-accordion-active {
+    display: block;
+}
+
+.resp-tab-content {
+    border: 1px solid #cccccc;
+}
+
+h2.resp-accordion {
+    font-size: 13px;
+    border: 1px solid #c1c1c1;
+    border-top: 0px solid #c1c1c1;
+    margin: 0px;
+    padding: 10px 15px;
+}
+
+h2.resp-tab-active {
+    border-bottom: 0px solid #c1c1c1 !important;
+    margin-bottom: 0px !important;
+    padding: 10px 15px !important;
+}
+
+h2.resp-tab-title:last-child {
+    border-bottom: 12px solid #c1c1c1 !important;
+    background: blue;
+}
+
+
+/*-----------Accordion styles-----------*/
+h2.resp-tab-active {
+    background: #DBDBDB !important;
+}
+.resp-easy-accordion  h2.resp-accordion {
+        display: block;
+}
+.resp-easy-accordion .resp-tab-content {
+    border: 1px solid #c1c1c1;
+}
+
+.resp-easy-accordion .resp-tab-content:last-child {
+    border-bottom: 1px solid #c1c1c1 !important;
+}
+
+.resp-jfit {
+    width: 100%;
+    margin: 0px;
+}
+
+.resp-tab-content-active {
+    display: block;
+}
+
+h2.resp-accordion:first-child {
+    border-top: 1px solid #c1c1c1 !important;
+}
+
+/*Here your can change the breakpoint to set the accordion, when screen resolution changed*/
+@media only screen and (max-width: 768px) {
+    ul.resp-tabs-list {
+        display: none;
+    }
+
+    h2.resp-accordion {
+        display: block;
+    }
+
+    .resp-vtabs .resp-tab-content {
+        border: 1px solid #C1C1C1;
+    }
+
+    .resp-vtabs .resp-tabs-container {
+        border: none;
+        float: none;
+        width: 100%;
+        min-height: initial;
+        clear: none;
+    }
+    .resp-accordion-closed {
+        display:none !important;
+    }
+    .resp-vtabs .resp-tab-content:last-child {
+        border-bottom: 1px solid #c1c1c1 !important;
+    }
+}
+
+/*****************************************slide tabs ends*******************************************************/
+
+/***************************MENU*****************************/
+#cssmenu{position: relative;height: 0px;color:#2655A5;width: auto;}
+#cssmenu ul{list-style: none;padding: 0;margin: 0;line-height: 3;}
+#cssmenu > ul{position: relative;display: block;float:right;}
+#cssmenu > ul > li{display: block;position: relative;float: left;margin: 0;padding: 0px;}
+#cssmenu > ul > #menu-button{display: none;}
+#cssmenu ul li a {display: block;text-decoration: none;}
+#cssmenu > ul > li > a {font-size: 14px;font-weight: 700;padding: 0px 0px 10px 25px;-webkit-transition: color 0.25s ease-out;-moz-transition: color 0.25s ease-out;-ms-transition: color 0.25s ease-out;-o-transition: color 0.25s ease-out;transition: color 0.25s ease-out;}
+#cssmenu > ul > li.has-sub > a{padding-right: 38px;}
+#cssmenu > ul > li:hover > a{color: #E80009;}
+#cssmenu > ul > li:hover::after {border-top-color: #000000;}
+#cssmenu ul ul {position: absolute;left: -9999px;opacity: 0;-webkit-transition: opacity .3s ease, top .25s ease;-moz-transition: opacity .3s ease, top .25s ease;-ms-transition: opacity .3s ease, top .25s ease;-o-transition: opacity .3s ease, top .25s ease;transition: opacity .3s ease, top .25s ease;}
+#cssmenu ul ul ul {padding-left: 5px;}
+#cssmenu ul ul li {position: relative;}
+#cssmenu > ul > li:hover > ul {left: auto;top:45px;opacity: 1;right:0px;}
+#cssmenu ul ul li:hover > ul {left: 170px;top: 0;opacity: 1;}
+#cssmenu ul ul li a {top:0px; width: 250px;border-bottom: 1px solid #ffffff;color:#2655A5;padding:0px 10px 0px 10px;font-size: 12px; font-weight:400; text-align:left; background: #efefef;-webkit-transition: all .35s ease;-moz-transition: all .35s ease;-ms-transition: all .35s ease;-o-transition: all .35s ease;transition: all .35s ease;}
+#cssmenu ul ul li:hover > a{color: #ffffff; background: #3E3494;}
+/***************************END MENU*****************************/
